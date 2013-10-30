@@ -1,0 +1,11 @@
+<div class="hero-unit">
+<h1>{{feed.title}}</h1>
+<br>
+<ul>
+  <li ng-repeat="entry in feed.items">
+  	{{entry.div.section.section.section.hgroup.h2.a.title}}
+  	<img src="{{entry.div.div.div.center.img.src}}"/>
+  	<iframe scrolling="no" width="100%" frameborder="no" src="{{entry.div.div.div.p[2].iframe.src}}"/>
+  </li>
+</ul>
+</div>

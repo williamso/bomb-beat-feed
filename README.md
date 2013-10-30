@@ -1,0 +1,1 @@
+Simple feed app with Yeoman + Grunt + AngularJS + YQL
